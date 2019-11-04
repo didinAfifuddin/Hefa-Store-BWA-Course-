@@ -236,7 +236,7 @@
                                 <button type="button" class="btn btn-light btn-block">Cancel</button>
                             </div>
                             <div class="col-6 d-flex justify-content-between">
-                                <button type="button" class="btn btn-warning float-right btn-block text-white">Checkout</button>
+                                <button type="button" class="btn btn-warning float-right btn-block text-white" data-toggle="modal" data-target="#exampleModal">Checkout</button>
                             </div>
                         </div>
                     </div>
@@ -244,6 +244,25 @@
             </div>
         </section>
         <!-- end cart item -->
+        
+        <!-- start ckeckout modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <img src="/logo/ic_sukses_checkout.png" alt="" class="mb-5">
+                        <h4>Checkout Berhasil</h4>
+                        <p>Anda akan mendapatkan barang<br>anda dalam beberapa hari</p>
+                        <a href="index.html">
+                            <button type="button" class="btn btn-light my-4">Home</button>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- end checkout modal -->
 
         <!-- footer -->
         <footer class="border-top p-5">
